@@ -1,0 +1,13 @@
+title: "Mi Sitio Jekyll"
+description: "Un sitio básico para comenzar con Jekyll"
+baseurl: "" # Cambia esto si estás usando GitHub Pages, por ejemplo: "/mi-repo"
+url: "https://oscarlanca.github.io" # La URL de tu sitio (déjalo vacío si no lo has definido)
+
+sass:
+  sass_dir: assets/css
+
+theme: jekyll-theme-minimal
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
